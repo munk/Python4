@@ -34,4 +34,3 @@ def inspection_data(boro, samplesize):
     sampled = _sample_zipcodes_(zipcodes, samplesize)
     return sampled
 
-inspection_data('manhattan', 10)
